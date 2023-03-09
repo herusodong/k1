@@ -1,0 +1,11 @@
+import random
+import time
+import sys
+def mengetik(s):	
+	for c in s + '\n':		
+	sys.stdout.write(c)		
+	sys.stdout.flush()		
+	time.sleep(random.random() * 0.3)
+mengetik('selamat datang Heru Haerudin. fokus pada satu titik')
+
+
